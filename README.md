@@ -1,3 +1,3 @@
 # odin-recipes
 The Odin Project HTML Recipe Project.
-Here I will write a description of the project and the skills I've demonstrated upon completion.
+Skills demonstrated: Setting up a GitHub repository; creating directories; creating HTML files and using HTML boilerplate to set up simple webpages; linking relative pages; using foundational HTML elements including images, headings, and lists. 
