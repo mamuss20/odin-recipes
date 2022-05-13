@@ -3,6 +3,24 @@
 }
 
 h1 {
+    font-size: 46px;
     font-weight: bold;
     text-align: center;
+    background-color: #74caf5e2;
+    color: #ffffff;
 }
+
+#title {
+    font-size: 56px; 
+}
+
+.recipes li {
+    text-align: justified;
+    font-size: 26px;
+    font-style: normal;
+}
+
+ul {
+    font-style: italic;
+}
+
