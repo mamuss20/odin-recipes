@@ -1,26 +1,63 @@
 * {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0; 
+    margin: 0;
 }
 
-h1 {
-    font-size: 46px;
-    font-weight: bold;
-    text-align: center;
-    background-color: #74caf5e2;
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    display: flex;
     color: #ffffff;
+    background-color: #b3e1f7e2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0px; 
 }
 
 #title {
-    font-size: 56px; 
+    font-family: 'Cinzel', serif;
+    font-size: 72px;
 }
 
-.recipes li {
-    text-align: justified;
+.nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     font-size: 26px;
-    font-style: normal;
+    color: #ffffff;
+    gap: 26px; 
+    font-style: italic;
 }
 
-ul {
-    font-style: italic;
+h2 {
+    font-size: 40px;
+    color: #ffffff;
+    font-style: italic; 
+    padding: 30px 100px; 
+}
+
+.featured {
+    background-color: #60add1e2;
+}
+
+.featured img {
+    max-width: 450px;
+    max-height: 300px;
+    border-radius: 6px; 
+}
+
+.boxes {
+    display: flex; 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+    gap: 36px; 
 }
 
