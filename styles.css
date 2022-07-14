@@ -47,18 +47,20 @@ header {
     font-style: italic;
 }
 
-h2 {
-    font-size: 40px;
-    color: #ffffff;
-    font-style: italic; 
-    padding: 30px 100px; 
-}
+/*homepage*/ 
 
 .featured {
     background-color: #2f5288;
     color: #ffffff;
     font-size: 20px; 
     font-style: italic; 
+}
+
+.hero {
+    font-size: 40px;
+    color: #ffffff;
+    font-style: italic; 
+    padding: 30px 100px; 
 }
 
 .featured img {
@@ -89,6 +91,80 @@ h2 {
     align-items: center;
     padding-bottom: 50px;
 }
+
+/*recipe pages*/ 
+
+.intro {
+    display: flex; 
+    background-color: #2f5288;
+    color: #ffffff;
+    padding: 30px 100px;
+    justify-content: center; 
+    flex: 1; 
+    gap: 60px; 
+}
+
+.intro-left {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    flex: 1; 
+}
+
+.intro-right {
+    flex: 1; 
+}
+
+h2 {
+    font-size: 46px;
+    font-style: italic; 
+    padding-bottom: 32px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+.intro img {     
+    min-width: 375px;
+    max-width: 750px;
+    border-radius: 6px; 
+    margin: 12px 0px; 
+}
+
+.intro p {
+    font-style: italic; 
+}
+
+.recipe {
+    padding: 30px 100px;
+    font-family: 'Times New Roman';
+    font-size: 19px;
+    display: flex;  
+    flex: 1; 
+    gap: 42px;  
+    list-style-position: inside;
+}
+
+.description {
+    flex: 1; 
+    background-color: #b6e5ed;
+    padding: 18px; 
+    border-radius: 6px; 
+}
+
+.ingredients, 
+.steps {
+    flex: 1; 
+}
+
+.ingredients h4,
+.steps h4 {
+    font-size: 24px; 
+    padding-bottom: 6px; 
+}
+
+/*bottom*/ 
 
 .button {
     background-color: #243e7d; 
@@ -121,6 +197,9 @@ h2 {
     border-radius: 10px; 
     gap: 20px; 
 } 
+
+
+
 
 footer {
     color: #e5e7eb;
